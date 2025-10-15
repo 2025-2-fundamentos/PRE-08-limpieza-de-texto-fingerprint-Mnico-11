@@ -103,9 +103,12 @@ def main(input_file, output_file):
 
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
 
     main(
         input_file="files/input.txt",
         output_file="files/output.txt",
     )
+
+
+
